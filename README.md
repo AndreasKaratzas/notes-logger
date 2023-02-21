@@ -47,8 +47,9 @@ There are additional arguments you can use. Type `python main.py --help` to see 
 
 ### Todo
 
-- [ ] Fix the issue with whitespace before ')' and ']' and '}' and '>' and ending '`'.
-- [ ] Fix the issue with whitespace removal between some words.
+- [ ] Fix the issue with whitespace before ')' and ']' and '}' and '>' and ending '`' in short description column.
+- [ ] Fix the issue with whitespace removal between some words in short description column.
+- [ ] Add `CODE_OF_CONDUCT.md`
 
 ### Credits
 The Notes Logger App was developed by Andreas Karatzas. It utilizes the following Python packages:
@@ -65,7 +66,6 @@ This application is released under the GNU Affero General Public License v3.0. S
 1. Fork the repository.
 2. Make your changes and commit them.
 3. Submit a pull request.
-4. Please make sure to follow the project's code of conduct.
 
 ### Contact
 
