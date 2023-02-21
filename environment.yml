@@ -1,0 +1,15 @@
+name: notes-logger
+channels:
+  - defaults
+dependencies:
+  - pip
+  - python=3.9
+  - pip:
+    - manim==0.17.2
+    - manim-ml==0.0.20
+    - autopep8==1.6.0
+    - pandas==1.5.3
+    - nltk==3.8.1
+    - keybert==0.7.0
+    - manimgl==1.6.1
+prefix: ~/anaconda3/envs/notes-logger
