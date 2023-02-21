@@ -27,10 +27,23 @@ conda activate notes-logger
 
 ### Usage
 
-Start the application by running the following command:
+First, create your new note under the `data/notes` directory. You can use any name you want, but you have to preserve the `.json` format demonstrated in the `dummyNote.json` sample file:
+    
+```json
+{
+    "Date": "<day>-<month>-<year>",
+    "Short Description": "Short description of the note",
+    "Link to powerpoint": "Link to some presentation in case you have one",
+    "Expected project length": "<x> mon + <y> days"
+}
+```
+
+Then, start the application and compile your notes into a table by running:
 ```bash
 python main.py
 ```
+
+There are additional arguments you can use. Type `python main.py --help` to see them.
 
 ### Todo
 
