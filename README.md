@@ -2,7 +2,7 @@
 
 The Notes Logger App is a Python application for logging and organizing your notes. It utilizes KeyBERT to identify the most important words in your notes, which are then highlighted using rich text formatting.
 
-![Sample](docs/sample.PNG)
+![Sample](docs/sample.png)
 
 ### Features
 
